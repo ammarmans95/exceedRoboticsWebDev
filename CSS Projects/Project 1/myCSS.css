@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(221, 217, 217);
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 4em;
+}
+p{
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto 20%;
+}
