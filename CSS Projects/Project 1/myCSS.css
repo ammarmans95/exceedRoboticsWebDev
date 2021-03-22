@@ -1,5 +1,6 @@
 body{
     background-color: rgb(221, 217, 217);
+    text-align: center;
 }
 h1{
     font-family: 'Oswald', sans-serif;
@@ -7,11 +8,88 @@ h1{
     text-align: center;
     font-size: 4em;
 }
-p{
+#aboutUs{
     font-style: italic;
     font-family: sans-serif;
     text-align: center;
     box-sizing: border-box;
     width: 50%;
     margin: auto 20%;
+}
+.row{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 80vw;
+    height: 20vw;
+    margin: 1vw 10%;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+.item{
+    float: left;
+    box-sizing: border-box;
+    width: 39vw;
+    height: 18vw;
+    margin: 5px 3px;
+    text-align: center;
+    padding: 1vw 0.5vw;
+    overflow: hidden;
+    background-color: white;
+}
+.image{
+    display: inline-block;
+    height: 16vw;
+    width: 19vw;
+}
+.description{
+    height: 16vw;
+    width: 18vw;
+    float: right;
+    text-align: left;
+}
+img{
+    width: inherit;
+    height: inherit;
+}
+.pizzaName{
+    text-align: left;
+    box-sizing: border-box;
+    width: 80%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    color: black;
+    margin: 4% 8%;
+}
+.ingredients{
+    text-align: left;
+    box-sizing: border-box;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    margin: 4% 8%;
+}
+.price{
+    text-align: left;
+    box-sizing: border-box;
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 2em;
+    color: red;
+    margin: 4% 8%;
+}
+button{
+    width: 50%;
+    height: 2em ;
+    font-size: 1.5em;
+    margin: 4% 8%;
+    background-color: rgb(221, 217, 217);
+    border: none;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
 }
